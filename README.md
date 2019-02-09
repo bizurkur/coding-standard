@@ -7,7 +7,7 @@ Bizurkur coding standard for [PHP_CodeSniffer](https://github.com/squizlabs/PHP_
 It's best to install using [Composer](https://getcomposer.org/).
 
 ```sh
-$ composer require bizurkur/coding-standard
+$ composer require bizurkur/coding-standard --dev
 ```
 
 ## Usage
