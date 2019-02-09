@@ -17,9 +17,9 @@ In your phpcs.xml.dist file, add a rule:
 ```xml
 <?xml version="1.0"?>
 <ruleset name="AcmeProject">
-	<rule ref="vendor/bizurkur/coding-standard/ruleset.xml">
-		<!-- sniffs to exclude -->
-	</rule>
+    <rule ref="vendor/bizurkur/coding-standard/ruleset.xml">
+        <!-- sniffs to exclude -->
+    </rule>
 </ruleset>
 ```
 
