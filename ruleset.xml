@@ -145,7 +145,11 @@
         </properties>
     </rule>
 
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration" />
+    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
+        <properties>
+            <property name="allAnnotationsAreUseful" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.UselessDocComment">
         <type>warning</type>
         <severity>1</severity>
