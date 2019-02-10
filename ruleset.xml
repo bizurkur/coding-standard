@@ -47,6 +47,16 @@
         <type>warning</type>
         <severity>1</severity>
     </rule>
+    <rule ref="Generic.Commenting.DocComment.ContentAfterOpen">
+        <!-- Allow inline annotations. -->
+        <type>warning</type>
+        <severity>1</severity>
+    </rule>
+    <rule ref="Generic.Commenting.DocComment.ContentBeforeClose">
+        <!-- Allow inline annotations. -->
+        <type>warning</type>
+        <severity>1</severity>
+    </rule>
 
     <rule ref="Generic.ControlStructures.InlineControlStructure" />
 
